@@ -8,8 +8,8 @@ type SocialMedia = {
 };
 
 const Header = () => {
-  const socialMedias: SocialMedia[] = [
-    { label: 'Github', url: 'https://github.com/CHNUTT', icon: faGithub },
+  const socialMediaList: SocialMedia[] = [
+    { label: 'GitHub', url: 'https://github.com/CHNUTT', icon: faGithub },
     {
       label: 'BitBucket',
       url: 'https://bitbucket.org/cheer-projects/workspace/projects/PROJ',
@@ -32,8 +32,8 @@ const Header = () => {
           {`I'm a versatile full-stack engineer skilled in building and optimizing scalable web applications
           using modern front-end and back-end technologies`}
         </p>
-        <ul className="mt-8 flex items-center">
-          {socialMedias.map((socialMedia) => (
+        <ul className="mt-8 flex items-center" aria-label="Social Media">
+          {socialMediaList.map((socialMedia) => (
             <li key={socialMedia.label} className="mr-5 text-xs shrink-0">
               <a className="block hover:text-slate-200" target="_blank" href={socialMedia.url}>
                 <span className="sr-only">{socialMedia.label}</span>
