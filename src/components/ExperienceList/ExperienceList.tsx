@@ -9,7 +9,7 @@ const ExperienceList = ({ experienceList }: ExperienceListProp) => {
   return (
     <ul aria-label="working experiences">
       {experienceList.map((experience) => (
-        <li key={experience.id}>
+        <li key={experience.id} className="mb-12">
           <ExperienceCard {...experience} />
         </li>
       ))}
