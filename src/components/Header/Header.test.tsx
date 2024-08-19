@@ -10,7 +10,7 @@ describe('Header component', () => {
   it('should render Full-Stack Engineer as a header 2', () => {
     render(<Header />);
 
-    expect(screen.getByRole('heading', { level: 2, name: 'Full-Stack Engineer' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 2, name: 'Full Stack Engineer' })).toBeInTheDocument();
   });
   it('should render summary as a paragraph', () => {
     render(<Header />);
