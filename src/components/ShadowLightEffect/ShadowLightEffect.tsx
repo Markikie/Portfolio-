@@ -7,7 +7,7 @@ const ShadowLightEffect = () => {
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      // Use pageX and pageY to make the shadow move relative to the document
+      // Use pageX and pageY to make the shadow move relative to the relative Element (i.e. parent div)
       setPosition({ x: e.pageX, y: e.pageY });
     };
 
@@ -20,7 +20,7 @@ const ShadowLightEffect = () => {
 
   return (
     <div
-      className="pointer-events-none absolute top-0 left-0 w-full h-full z-30 transition duration-300"
+      className="pointer-events-none absolute top-0 left-0 w-full h-full z-30"
       style={{
         background: `radial-gradient(400px at ${position.x}px ${position.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
       }}
