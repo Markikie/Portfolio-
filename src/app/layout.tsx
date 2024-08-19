@@ -8,9 +8,6 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Cheer Chokwittaya',
   description: 'Cheer Chokwittaya Portfolio website',
-  icons: {
-    icon: '/src/app/favicon-16x16.png',
-  },
 };
 
 export default function RootLayout({
