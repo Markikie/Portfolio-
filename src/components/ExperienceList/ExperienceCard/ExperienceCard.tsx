@@ -1,17 +1,7 @@
 import Pill from '@/components/shared/Pill';
+import { Experience } from '@/types';
 
-type ExperienceCardProps = {
-  startYear: string;
-  endYear?: string;
-  titles: {
-    title: string;
-    endYear?: string;
-  }[];
-  company: string;
-  link: string;
-  descriptions: string;
-  technologies: string[];
-};
+type ExperienceCardProps = Experience;
 
 const ExperienceCard = ({
   startYear,
