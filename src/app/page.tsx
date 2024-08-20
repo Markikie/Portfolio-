@@ -95,11 +95,11 @@ export default function Home() {
           <section id="about" className="mb-24 lg:py-24">
             <About />
           </section>
-          <section id="experiences" className="mb-24">
+          <section id="experience" className="mb-24">
             <ExperienceList experienceList={mockedExperiences} />
           </section>
           <section id="projects">Projects</section>
-          <section id="projects">Educations</section>
+          <section id="educations">Educations</section>
         </main>
       </div>
     </div>
