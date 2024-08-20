@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBitbucket, faGithub, faLinkedin, IconDefinition } from '@fortawesome/free-brands-svg-icons';
+import Navbar from '../Navbar';
 
 type SocialMedia = {
   label: string;
@@ -34,6 +35,7 @@ const Header = () => {
           {`I'm a versatile full-stack engineer skilled in building and optimizing scalable web applications
           using modern front-end and back-end technologies.`}
         </p>
+        <Navbar />
       </div>
       <ul className="mt-8 flex items-center" aria-label="Social Media">
         {socialMediaList.map((socialMedia) => (

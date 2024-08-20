@@ -98,6 +98,8 @@ export default function Home() {
           <section id="experiences" className="mb-24">
             <ExperienceList experienceList={mockedExperiences} />
           </section>
+          <section id="projects">Projects</section>
+          <section id="projects">Educations</section>
         </main>
       </div>
     </div>
