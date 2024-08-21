@@ -9,7 +9,7 @@ export default function Home() {
       <div className="lg:flex lg:justify-between lg:gap-4">
         <Header />
         <main className="pt-24 lg:pt-0 lg:w-1/2">
-          <section id="about" className="mb-24 lg:py-24">
+          <section id="about" className="mb-32 lg:pt-24">
             <About />
           </section>
           <section id="experience" className="mb-24">
