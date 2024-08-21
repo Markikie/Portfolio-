@@ -7,8 +7,8 @@ import { NavObj } from './NavItem/NavItem';
 const navItems: NavObj[] = [
   { href: 'about', label: 'About' },
   { href: 'experience', label: 'Experience' },
-  { href: 'projects', label: 'Projects' },
-  { href: 'educations', label: 'Educations' },
+  // { href: 'projects', label: 'Projects' },
+  // { href: 'educations', label: 'Educations' },
 ];
 
 const Navbar = () => {
