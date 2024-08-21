@@ -2,7 +2,7 @@ import About from '@/components/About';
 import ExperienceList from '@/components/ExperienceList';
 import Header from '@/components/Header';
 import ProjectList from '@/components/ProjectList';
-import { mockedExperiences, mockedProjects } from '@/data';
+import { mockedExperiences } from '@/data';
 
 export default function Home() {
   return (
@@ -16,9 +16,9 @@ export default function Home() {
           <section id="experience" className="mb-24">
             <ExperienceList experienceList={mockedExperiences} />
           </section>
-          <section id="projects">
+          {/* <section id="projects">
             <ProjectList projectList={mockedProjects} />
-          </section>
+          </section> */}
           {/* <section id="educations">Educations</section> */}
         </main>
       </div>
