@@ -1,7 +1,7 @@
 import About from '@/components/About';
 import ExperienceList from '@/components/ExperienceList';
 import Header from '@/components/Header';
-import ProjectList from '@/components/ProjectList';
+// import ProjectList from '@/components/ProjectList';
 import { mockedExperiences } from '@/data';
 
 export default function Home() {
