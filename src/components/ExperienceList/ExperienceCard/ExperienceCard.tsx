@@ -47,6 +47,10 @@ const ExperienceCard = ({
             </a>
           </div>
         </h3>
+        {sortedTitles.length > 1 &&
+          sortedTitles.map((sortedTitle, index) =>
+            index === 0 ? null : <h4 key={sortedTitle.endYear}>{sortedTitle.title}</h4>
+          )}
         <p className="mt-2 text-sm leading-normal" aria-label="summary">
           {descriptions}
         </p>
