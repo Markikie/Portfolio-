@@ -1,5 +1,6 @@
 import { Experience } from '@/types';
 import ExperienceCard from './ExperienceCard';
+import List from '../shared/List';
 
 type ExperienceListProp = {
   experienceList: Experience[];
@@ -7,13 +8,12 @@ type ExperienceListProp = {
 
 const ExperienceList = ({ experienceList }: ExperienceListProp) => {
   return (
-    <ul aria-label="working experiences">
-      {experienceList.map((experience) => (
-        <li key={experience.id} className="mb-12">
-          <ExperienceCard {...experience} />
-        </li>
-      ))}
-    </ul>
+    <List<Experience>
+      items={experienceList}
+      keyExtractor={(experience) => experience.id}
+      renderItem={(experience) => <ExperienceCard {...experience} />}
+      ariaLabel="working experiences"
+    />
   );
 };
 

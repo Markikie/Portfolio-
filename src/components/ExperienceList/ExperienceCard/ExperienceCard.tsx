@@ -1,5 +1,4 @@
 import Card from '@/components/shared/Card';
-import Pill from '@/components/shared/Pill';
 import { Experience } from '@/types';
 
 type ExperienceCardProps = Experience;
