@@ -1,4 +1,6 @@
-export const mockedExperiences = [
+import { Experience, Project } from '@/types';
+
+export const mockedExperiences: Experience[] = [
   {
     id: '1',
     startYear: '2021',
@@ -74,5 +76,47 @@ Collaborated with cross-functional teams to identify and resolve platform issues
       'Postgres',
       'AWS',
     ],
+  },
+];
+
+export const mockedProjects: Project[] = [
+  {
+    id: '1',
+    titles: [
+      {
+        title: 'Restaurant POS',
+      },
+    ],
+    link: 'https://github.com/cheer-cho/food-pos-application',
+    descriptions:
+      'I developed a responsive one-page POS system tailored for food ordering, enabling users to view items with prices, add or remove items from the order, and adjust quantities with ease. The system includes features for filtering items by category, allowing users to quickly find what they need, as well as options to input customer names and table numbers. Once the order is complete, users can finalize it with a simple click, or cancel if needed, all within an intuitive interface that adapts seamlessly across devices.',
+    technologies: ['React', 'TypeScript', 'Tailwind', 'Vitest', 'Vite'],
+    image: 'pos_application.png',
+  },
+  {
+    id: '2',
+    titles: [
+      {
+        title: 'Recursive React Component',
+      },
+    ],
+    link: 'https://github.com/cheer-cho/recursive-react-component',
+    descriptions:
+      'I developed a React application using TypeScript that leverages a Recursive React Component to elegantly render complex, nested folder and file structures. This component dynamically navigates and displays hierarchical data, allowing users to explore and manage directories with ease. The design not only showcases the power of recursion in handling deep nesting but also provides an interactive and visually intuitive interface for users to seamlessly interact with their file system.',
+    technologies: ['React', 'TypeScript', 'CSS', 'Vitest', 'Vite'],
+    image: 'file_explorer_application.png',
+  },
+  {
+    id: '3',
+    titles: [
+      {
+        title: 'Cloning Airbnb',
+      },
+    ],
+    link: 'https://github.com/cheer-cho/clone-airbnb',
+    descriptions:
+      'I developed a Next.js application that faithfully clones the Airbnb website, utilizing Next.js for powerful server-side rendering, Tailwind CSS for crafting a responsive and visually appealing design, and TypeScript for maintaining a robust and scalable codebase. The project meticulously replicates core Airbnb features, including property listings, search filters, and booking functionalities, offering users a seamless experience that mirrors the original platform. By combining these modern technologies, the application not only delivers high performance and adaptability across devices but also provides a solid foundation for future enhancements and scalability.',
+    technologies: ['React', 'TypeScript', 'Tailwind'],
+    image: 'clone_airbnb.png',
   },
 ];

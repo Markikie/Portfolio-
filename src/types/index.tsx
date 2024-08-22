@@ -16,5 +16,5 @@ export type Experience = {
 } & Card;
 
 export type Project = {
-  thumbnail: string;
+  image: string;
 } & Card;
