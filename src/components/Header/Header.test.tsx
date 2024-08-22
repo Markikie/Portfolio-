@@ -27,10 +27,10 @@ describe('Header component', () => {
     expect(socialMedialList).toBeInTheDocument();
 
     const socialMedialItems = getAllByRole(socialMedialList, 'listitem');
-    expect(socialMedialItems).toHaveLength(3);
+    expect(socialMedialItems).toHaveLength(4);
 
     const socialMediaList = [
-      { label: 'GitHub', url: 'https://github.com/CHNUTT' },
+      { label: 'GitHub', url: 'https://github.com/cheer-cho' },
       {
         label: 'BitBucket',
         url: 'https://bitbucket.org/cheer-projects/workspace/projects/PROJ',
@@ -39,6 +39,7 @@ describe('Header component', () => {
         label: 'LinkedIn',
         url: 'https://www.linkedin.com/in/cheer-chokwittaya/',
       },
+      { label: 'GitHub', url: 'https://github.com/CHNUTT' },
     ];
 
     for (const index in socialMedialItems) {

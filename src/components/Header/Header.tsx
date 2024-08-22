@@ -10,7 +10,7 @@ type SocialMedia = {
 
 const Header = () => {
   const socialMediaList: SocialMedia[] = [
-    { label: 'GitHub', url: 'https://github.com/CHNUTT', icon: faGithub },
+    { label: 'GitHub', url: 'https://github.com/cheer-cho', icon: faGithub },
     {
       label: 'BitBucket',
       url: 'https://bitbucket.org/cheer-projects/workspace/projects/PROJ',
@@ -21,6 +21,7 @@ const Header = () => {
       url: 'https://www.linkedin.com/in/cheer-chokwittaya/',
       icon: faLinkedin,
     },
+    { label: 'GitHub', url: 'https://github.com/CHNUTT', icon: faGithub },
   ];
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
