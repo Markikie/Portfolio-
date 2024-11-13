@@ -4,8 +4,8 @@ import './globals.css';
 import ShadowLightEffect from '@/components/ShadowLightEffect';
 
 export const metadata: Metadata = {
-  title: 'Cheer Chokwittaya',
-  description: 'Cheer Chokwittaya Portfolio website',
+  title: 'Sudawan Boontub',
+  description: 'Sudawan Boontub Portfolio website',
 };
 
 const openSans = Open_Sans({
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${openSans.className} bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 relative`}
+        className={`${openSans.className} bg-[#123456] leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 relative`}
       >
         <div className="relative">
           <ShadowLightEffect />

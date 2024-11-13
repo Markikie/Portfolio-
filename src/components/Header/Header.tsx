@@ -27,10 +27,10 @@ const Header = () => {
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
         <h1 className="text-4xl max-w-sm font-bold tracking-tight text-slate-200 sm:text-5xl">
-          Cheer Chokwittaya
+          Sudawan Boontub
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Full Stack Engineer
+          Full Stack Developer
         </h2>
         <p className="mt-3 max-w-xs leading-normal">
           {`I'm a versatile full-stack engineer skilled in building and optimizing scalable web applications

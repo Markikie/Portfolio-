@@ -10,7 +10,7 @@ const About = () => {
           My approach to software engineering is not just about writing code—it&apos;s about creating
           impactful solutions that bridge the gap between technology and user needs. With a solid foundation
           in full stack development, particularly with{' '}
-          <span className="text-white">JavaScript (React.js, Next.js)</span> and{' '}
+          <span className="text-white">JavaScript (React.js, Node.js)</span> and{' '}
           <span className="text-white">Python</span>, I specialize in building scalable and efficient
           applications. My experience spans both frontend and backend technologies, and I am passionate about
           leveraging these skills to solve complex problems while maintaining a focus on user experience and
