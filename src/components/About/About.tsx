@@ -7,24 +7,11 @@ const About = () => {
       <div>
         {/* <p className="mb-4">Hello! I&apos;m Cheer, a Software Engineer based in Houston, TX</p> */}
         <p className="mb-4">
-          My approach to software engineering is not just about writing code—it&apos;s about creating
-          impactful solutions that bridge the gap between technology and user needs. With a solid foundation
-          in full stack development, particularly with{' '}
-          <span className="text-white">JavaScript (React.js, Node.js)</span> and{' '}
-          <span className="text-white">Python</span>, I specialize in building scalable and efficient
-          applications. My experience spans both frontend and backend technologies, and I am passionate about
-          leveraging these skills to solve complex problems while maintaining a focus on user experience and
-          performance.
+            I am Sudawan Boontub, a passionate and detail-oriented Full Stack Software Developer with a strong foundation in frontend and backend technologies. Leveraging my educational background in Industrial Engineering and over six years of experience in production planning and operations, I bring a unique combination of technical expertise, problem-solving skills, and team management abilities to the software development field.
+            I have recently graduated from Generation Thailand's Software Developer Bootcamp, where I honed my skills in modern web technologies like React, Node.js, and MongoDB. My experience includes projects such as a Tea Blend E-Commerce platform and a Wood Carving Milling Machine, showcasing my versatility and commitment to delivering user-focused solutions.
+            With a growth mindset, a proactive attitude, and a passion for innovation, I am eager to contribute to impactful software projects that solve real-world problems.
         </p>
-        <p>
-          Throughout my career, I&apos;ve had the opportunity to work on a variety of projects, from enhancing
-          user interfaces to architecting robust back-end systems. My current role involves working with
-          cutting-edge technologies like{' '}
-          <span className="text-white">React.js, Node.js, Python, Postgres, and AWS</span>, where I lead the
-          development of key features that contribute directly to business growth. I believe that successful
-          software engineering is a blend of technical excellence and a deep understanding of the product, and
-          I strive to bring both to every project I work on.
-        </p>
+
       </div>
     </>
   );
