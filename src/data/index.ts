@@ -9,9 +9,6 @@ export const mockedExperiences: Experience[] = [
         title: 'Production Planner',
         endYear: '2023',
       },
-      {
-        title: 'Production Planner',
-      },
     ],
     company: 'Print Divas Company Limited',
     link: 'https://www.facebook.com/p/HR-Print-Divas-100066404504296/',

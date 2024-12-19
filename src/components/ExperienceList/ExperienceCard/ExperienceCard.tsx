@@ -30,7 +30,7 @@ const ExperienceCard = ({
           className="z-10 mb-2 mt-1 text-xs font-semibold tracking-wide text-slate-500 sm:col-span-2"
           aria-label="employment period"
         >
-          {`${startYear} — ${endYear ? endYear : 'Present'}`}
+          {`${startYear} — ${endYear ? endYear : '2023'}`}
         </header>
       }
       header={`${sortedTitles[0].title} — ${company}`}
